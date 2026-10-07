@@ -1,0 +1,47 @@
+# Q8. Calculate percentage and grade from marks of 3 subjects
+
+print("----- Percentage Calculations -----")
+marks1 = int(input("Enter marks of subject1 : "))
+marks2 = int(input("Enter marks of subject2 : "))
+marks3 = int(input("Enter marks of subject3 : "))
+
+total = marks1 + marks2 + marks3
+percentage = total / 3
+
+if percentage >= 90:
+    grade = "O"
+elif percentage >= 80:
+    grade = "A"
+elif percentage >= 70:
+    grade = "B"
+elif percentage >= 60:
+    grade = "C"
+elif percentage >= 50:
+    grade = "D"
+elif percentage >= 40:
+    grade = "E"
+else:
+    grade = "F"
+
+print("=" * 25)
+print("Subject1 = ", marks1)
+print("Subject2 = ", marks2)
+print("Subject3 = ", marks3)
+print("Total = ", total)
+print("Percentage = {:.2f}%".format(percentage))
+print("Grade = ", grade)
+print("=" * 25)
+
+# -------Output-------
+# ----- Percentage Calculations -----
+# Enter marks of subject1 : 85
+# Enter marks of subject2 : 90
+# Enter marks of subject3 : 78
+# =========================
+# Subject1 =  85
+# Subject2 =  90
+# Subject3 =  78
+# Total =  253
+# Percentage = 84.33%
+# Grade =  A
+# =========================
