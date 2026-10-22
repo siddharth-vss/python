@@ -43,6 +43,12 @@ python/
     ├── Q6_dictionary_methods.py
     ├── Q7_calculator_menu.py
     ├── Q8_percentage_grade.py
+    ├── A2_Q1_list_operations.py
+    ├── A2_Q2_student_list.py
+    ├── A2_Q3_tuple_operations.py
+    ├── A2_Q4_string_operations.py
+    ├── A2_Q5_string_methods.py
+    ├── A2_Q6_array_operations.py
     └── sample.txt
 ```
 
@@ -481,3 +487,120 @@ Output: Total = 253 | Percentage = 84.33% | Grade = A
 | Lists | Q4 |
 | Tuples | Q5 |
 | Menu-driven programs | Q2, Q7 |
+
+---
+
+## 📙 Assignment 2 — MCA240102 Python Programming
+
+> **Course:** MCA240102 — Python Programming  
+> **Assignment:** 2
+
+---
+
+### Q1 — List Operations with `range()`
+
+Create a list of ten integers using `range()` and perform the following:
+
+| Part | Operation |
+|------|-----------|
+| a | Display the list; access elements using positive indexing, negative indexing, and slicing |
+| b | Update an element at a user-specified index |
+| c | List concatenation using `+` and repetition using `*` |
+| d | Check membership using `in` and `not in` |
+| e | Apply list methods: `append()`, `insert()`, `remove()`, `pop()`, `reverse()`, `count()` |
+| f | Sort in ascending and descending order using `sort()` and `sorted()` |
+| g | Create an alias and a clone of the list; modify one element and demonstrate the difference |
+| h | Display maximum, minimum, and length using `max()`, `min()`, `len()` |
+
+**Concepts:** List creation, indexing, slicing, built-in list methods, aliasing vs cloning.
+
+---
+
+### Q2 — Student List and Nested List Operations
+
+Create `list1` (five student names) and `list2` (nested list of names + marks for at least five students). Perform:
+
+| Part | Operation |
+|------|-----------|
+| a | Accept a name from user; search in `list1` and display index if found, else show a message |
+| b | Sort names alphabetically in ascending and descending order using `sort()` and `sorted()` |
+| c | Add a new student name, insert at a specified position, and remove a student name |
+| d | Display all student records using a loop (`list2`) |
+| e | Find the student with highest marks and calculate average marks (`list2`) |
+| f | Display number of student records using `len()` (`list2`) |
+
+**Concepts:** Nested lists, linear search, sorting, `max()` with key, average calculation.
+
+---
+
+### Q3 — Tuple Operations
+
+Create a tuple of at least ten values including repeated numeric values. Perform:
+
+| Part | Operation |
+|------|-----------|
+| a | Display the tuple; access elements using positive indexing, negative indexing, and slicing |
+| b | Tuple concatenation using `+` and repetition using `*` |
+| c | Check membership using `in` and `not in` |
+| d | Find maximum, minimum, and length using `max()`, `min()`, `len()` |
+| e | Count occurrences of a user-input value using `count()` |
+| f | Search for a specified element using `index()`; handle `ValueError` if not found |
+
+**Concepts:** Tuple immutability, indexing, slicing, `count()`, `index()`, exception handling.
+
+---
+
+### Q4 — String Operations
+
+Accept two strings from the user. Perform:
+
+| Part | Operation |
+|------|-----------|
+| a | Display strings and their lengths using `len()` |
+| b | Access characters using positive and negative indexing |
+| c | Extract substrings using slicing |
+| d | Repeat a string using `*` and concatenate two strings using `+` |
+| e | Check if a character or substring exists using `in` and `not in` |
+| f | Compare two strings using `==`, `!=`, `<`, `>` |
+| g | Convert to uppercase and lowercase using `upper()` and `lower()` |
+
+**Concepts:** String indexing, slicing, operators, comparison, built-in string methods.
+
+---
+
+### Q5 — Sentence/String Methods
+
+Accept a sentence from the user and perform:
+
+| Part | Operation |
+|------|-----------|
+| a | Remove leading/trailing spaces using `lstrip()`, `rstrip()`, `strip()` |
+| b | Search for a substring using `find()` and `index()`; handle cases where substring is not found |
+| c | Count occurrences of a specified word using `count()` |
+| d | Replace a word or character using `replace()` |
+| e | Split the sentence into words using `split()` and join them using `join()` |
+| f (extra) | Demonstrate string immutability by attempting to modify a character; explain why it fails. Sort words alphabetically |
+
+**Concepts:** String methods, immutability, `split()`/`join()`, `find()` vs `index()`, `ValueError` handling.
+
+---
+
+### Q6 — Array Module Operations
+
+Use Python's `array` module to create an integer array of at least eight elements. Perform:
+
+| Part | Operation |
+|------|-----------|
+| a | Display the array; access elements using indexing and slicing |
+| b | Insert a new element at a specified position using `insert()` |
+| c | Remove a specified element using `remove()` and remove the last element using `pop()` |
+| d | Search for an element and display its index if found; otherwise show a message |
+| e | Check membership using `in` and `not in` |
+| f | Display maximum, minimum, and length of the array |
+| g | Reverse the array and display the final result |
+
+**Concepts:** `array` module, typed arrays, `insert()`, `remove()`, `pop()`, membership testing, reversal.
+
+---
+
+> **Files:** All 6 programs are located in `Unit1_Programs/` with the naming convention `A2_Q<n>_<topic>.py`.
